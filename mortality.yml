@@ -1,0 +1,593 @@
+jobs:
+  - output: compute_test_mortality_county_ann_rcp26_miroc5_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_miroc5_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_gfdl-cm3_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_gfdl-cm3_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_mpi-esm-mr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_mpi-esm-mr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_bnu-esm_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_bnu-esm_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_pattern28_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_pattern28_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp85_giss-e2-r_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_giss-e2-r_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_miroc-esm-chem_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_miroc-esm-chem_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_miroc-esm-chem_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_miroc-esm-chem_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_gfdl-esm2g_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_gfdl-esm2g_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_cmcc-cm_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_cmcc-cm_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_hadgem2-ao_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_hadgem2-ao_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp45_bcc-csm1-1_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_bcc-csm1-1_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp85_pattern39_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_pattern39_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_miroc-esm-chem_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_miroc-esm-chem_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_noresm1-m_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_noresm1-m_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_miroc-esm_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_miroc-esm_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_hadgem2-es_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_hadgem2-es_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp26_pattern4_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_pattern4_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_cesm1-bgc_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_cesm1-bgc_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_noresm1-m_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_noresm1-m_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_inmcm4_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_inmcm4_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_ccsm4_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_ccsm4_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_gfdl-esm2g_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_gfdl-esm2g_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_pattern2_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_pattern2_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_bcc-csm1-1_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_bcc-csm1-1_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp45_mpi-esm-lr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_mpi-esm-lr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_pattern7_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_pattern7_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_pattern24_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_pattern24_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp45_cesm1-bgc_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_cesm1-bgc_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_ccsm4_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_ccsm4_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_pattern24_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_pattern24_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_cnrm-cm5_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_cnrm-cm5_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_pattern26_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_pattern26_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp26_fio-esm_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_fio-esm_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_hadgem2-cc_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_hadgem2-cc_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_pattern43_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_pattern43_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_noresm1-me_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_noresm1-me_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_access1-0_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_access1-0_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_ipsl-cm5b-lr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_ipsl-cm5b-lr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_cesm1-cam5_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_cesm1-cam5_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_ipsl-cm5a-mr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_ipsl-cm5a-mr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_mri-cgcm3_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_mri-cgcm3_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_pattern1_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_pattern1_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_fgoals-g2_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_fgoals-g2_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_miroc-esm_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_miroc-esm_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_pattern4_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_pattern4_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_inmcm4_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_inmcm4_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_noresm1-me_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_noresm1-me_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_bcc-csm1-1_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_bcc-csm1-1_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp26_mri-cgcm3_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_mri-cgcm3_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_gfdl-esm2m_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_gfdl-esm2m_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_giss-e2-r_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_giss-e2-r_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_cesm1-cam5_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_cesm1-cam5_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_csiro-mk3-6-0_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_csiro-mk3-6-0_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_fio-esm_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_fio-esm_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_ipsl-cm5a-lr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_ipsl-cm5a-lr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_pattern5_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_pattern5_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_fio-esm_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_fio-esm_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_csiro-mk3-6-0_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_csiro-mk3-6-0_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_access1-0_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_access1-0_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_ipsl-cm5b-lr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_ipsl-cm5b-lr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_ccsm4_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_ccsm4_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_bnu-esm_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_bnu-esm_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_hadgem2-es_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_hadgem2-es_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp45_pattern41_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_pattern41_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp26_giss-e2-r_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_giss-e2-r_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_cnrm-cm5_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_cnrm-cm5_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_pattern39_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_pattern39_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp85_pattern40_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_pattern40_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_pattern4_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_pattern4_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_pattern25_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_pattern25_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_pattern38_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_pattern38_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_bnu-esm_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_bnu-esm_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_pattern27_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_pattern27_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_bcc-csm1-1-m_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_bcc-csm1-1-m_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_access1-3_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_access1-3_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_mpi-esm-lr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_mpi-esm-lr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_csiro-mk3-6-0_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_csiro-mk3-6-0_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_miroc-esm_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_miroc-esm_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_pattern38_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_pattern38_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_cesm1-cam5_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_cesm1-cam5_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_hadcm3_1981-2035
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_hadcm3_1981-2035.nc
+  - output: compute_test_mortality_county_ann_rcp45_gfdl-cm3_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_gfdl-cm3_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_cesm1-cam5_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_cesm1-cam5_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_miroc-esm-chem_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_miroc-esm-chem_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_ipsl-cm5a-lr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_ipsl-cm5a-lr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_miroc5_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_miroc5_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_pattern2_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_pattern2_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_pattern44_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_pattern44_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_fio-esm_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_fio-esm_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_ipsl-cm5a-mr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_ipsl-cm5a-mr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_gfdl-esm2g_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_gfdl-esm2g_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_canesm2_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_canesm2_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_pattern3_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_pattern3_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_giss-e2-h-cc_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_giss-e2-h-cc_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_gfdl-esm2g_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_gfdl-esm2g_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_giss-e2-r_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_giss-e2-r_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_hadgem2-es_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_hadgem2-es_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp45_pattern43_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_pattern43_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp85_mri-cgcm3_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_mri-cgcm3_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_noresm1-m_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_noresm1-m_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_ipsl-cm5a-mr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_ipsl-cm5a-mr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_pattern28_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_pattern28_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp45_hadgem2-cc_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_hadgem2-cc_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp85_ipsl-cm5a-lr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_ipsl-cm5a-lr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_canesm2_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_canesm2_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_bcc-csm1-1_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_bcc-csm1-1_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp45_pattern1_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_pattern1_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_fgoals-g2_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_fgoals-g2_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_gfdl-esm2m_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_gfdl-esm2m_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_pattern2_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_pattern2_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_miroc5_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_miroc5_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_noresm1-m_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_noresm1-m_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_pattern40_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_pattern40_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_canesm2_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_canesm2_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_csiro-mk3-6-0_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_csiro-mk3-6-0_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_pattern23_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_pattern23_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_miroc-esm_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_miroc-esm_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_pattern42_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_pattern42_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_hadgem2-ao_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_hadgem2-ao_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp85_cmcc-cm_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_cmcc-cm_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_access1-3_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_access1-3_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_gfdl-esm2m_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_gfdl-esm2m_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_pattern4_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_pattern4_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_noresm1-me_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_noresm1-me_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_gfdl-esm2m_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_gfdl-esm2m_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_hadgem2-es_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_hadgem2-es_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp85_gfdl-cm3_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_gfdl-cm3_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_bcc-csm1-1-m_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_bcc-csm1-1-m_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp85_mpi-esm-mr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_mpi-esm-mr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_pattern1_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_pattern1_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_ipsl-cm5a-mr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_ipsl-cm5a-mr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_ipsl-cm5a-lr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_ipsl-cm5a-lr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_mpi-esm-mr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_mpi-esm-mr_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_pattern3_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_pattern3_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_giss-e2-r-cc_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_giss-e2-r-cc_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_miroc4h_1981-2035
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_miroc4h_1981-2035.nc
+  - output: compute_test_mortality_county_ann_rcp85_fgoals-g2_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_fgoals-g2_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_pattern42_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_pattern42_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_hadgem2-ao_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_hadgem2-ao_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp45_miroc5_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_miroc5_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp60_gfdl-cm3_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp60_gfdl-cm3_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_hadgem2-ao_1981-2099
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_hadgem2-ao_1981-2099.nc
+  - output: compute_test_mortality_county_ann_rcp85_pattern41_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_pattern41_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp45_noresm1-me_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp45_noresm1-me_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_ccsm4_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_ccsm4_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp26_pattern29_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp26_pattern29_1981-2100.nc
+  - output: compute_test_mortality_county_ann_rcp85_mpi-esm-lr_1981-2100
+    inputs:
+      tas:
+        ACP_climate_smme_tas_county_ann_rcp85_mpi-esm-lr_1981-2100.nc==0.0.1
