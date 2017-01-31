@@ -9,4 +9,9 @@ class Mortality(impactlab.ScenarioRunner):
 
         gamma1, gamma2, gamma3 = parameters
 
-        return (gamma1*(tas.tas**2) + gamma2*tas.tas + gamma3).to_pandas()
+        result = (gamma1*(tas.tas**2) + gamma2*tas.tas + gamma3).to_pandas()
+
+        def outputter(filepath):
+            result.to_csv(filepath)
+
+        return outputter

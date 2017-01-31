@@ -46,7 +46,7 @@ class ImpactLabComputer(luigi.Task):
         for i in range(len(param_set)):
             parameters = param_set.iloc[i].values
             
-            result = self.action(parameters=parameters, **datasets)
+            outputter = self.action(parameters=parameters, **datasets)
 
             dest = api.create(
                 '{}_{}.csv'.format(
@@ -57,7 +57,7 @@ class ImpactLabComputer(luigi.Task):
                     description='Example outputs'))
 
             with dest.open('wb+') as f:
-                result.to_csv(f, encoding='utf-8')
+                outputter(f)
 
 
 class ScenarioRunner(luigi.Task):
