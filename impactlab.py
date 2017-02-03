@@ -2,6 +2,7 @@ import luigi
 import ast
 import yaml
 import json
+import time
 import datafs
 import xarray as xr
 import pandas as pd
@@ -38,8 +39,9 @@ class ImpactLabComputer(luigi.Task):
             archive = api.get_archive(arch_name)
 
             with archive.get_local_path() as f:
-                    with xr.open_dataset(f) as ds:
-                        datasets[var_name] = ds.load()
+                with xr.open_dataset(f) as ds:
+                    datasets[var_name] = ds.load()
+                    ds.close()
 
         param_set = pd.read_csv(self.paramfile, header=None)
 
@@ -52,9 +54,10 @@ class ImpactLabComputer(luigi.Task):
                 '{}_{}.csv'.format(
                     self.output_var, 
                     '_'.join(list(map(str, parameters)))),
-                
                 metadata=dict(
-                    description='Example outputs'))
+                    description='Example outputs'),
+                tags=self.output_var.split('_'),
+                raise_if_exists=False)
 
             with dest.open('wb+') as f:
                 outputter(f)
